@@ -1,10 +1,10 @@
 <script setup>
-import Header from "./Header/Header.vue";
-import Footer from "./Footer/Footer.vue";
+import Header from './Header/Header.vue'
+import Footer from './Footer/Footer.vue'
 </script>
 
 <template>
-  <div>
+  <div class="flex flex-col w-[80%] mx-auto">
     <slot name="header">
       <Header></Header>
     </slot>
